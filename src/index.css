@@ -3,7 +3,6 @@
 }
 
 .leaflet-touch .leaflet-control-attribution,
-.leaflet-touch .leaflet-control-layers,
-.leaflet-touch .leaflet-bar {
+.leaflet-touch .leaflet-control-layers {
   display: none;
 }

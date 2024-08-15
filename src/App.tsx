@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import Events from "./components/Events";
-import Map from "./components/Map";
+import Events from "./Components/Events";
+import Map from "./Components/Map";
 import {
   UniversityEvents,
   universityEventsList,
@@ -19,7 +19,7 @@ function App() {
   };
   return (
     <>
-      <div className="">
+      <div>
         <div className="row m-0">
           <div className="col-md-5">
             <Map onUniversityClick={handleUniversityClick} />
