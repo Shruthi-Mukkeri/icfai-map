@@ -1,0 +1,44 @@
+.eventSection {
+  height: 100dvh;
+  overflow-y: auto;
+}
+
+.eventSection h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #393185;
+  margin-bottom: 22px;
+}
+
+.eventSection h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #37517e;
+}
+
+.eventSection .card {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 5px;
+  transition: 0.5s;
+  padding: 30px;
+  height: 100%;
+}
+.eventSection .card:hover {
+  transform: translateY(-8px);
+}
+.eventSection .date {
+  position: relative;
+}
+
+.eventSection .date::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: #dfdddd;
+  bottom: -8px;
+  left: 0;
+}
